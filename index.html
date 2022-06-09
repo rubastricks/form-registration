@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="/stylesheet.css">
+    <title>Simple Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form" class="form">
+            <h2>Register With Us</h2>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label  for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Email">
+                <small>Error Message</small>
+            </div> 
+            <div class="form-control">
+                <label  class= "pasw-fix"" for="password">Password</label>
+                <i class="fa fa-eye" id="bi-eye"></i>
+                <input type="password" id="password" placeholder="Enter Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label  class="psw2-fix" for="password2">Confirm Password</label>
+                <i class="fa fa-eye" id="bi-eye2"></i>
+                <input type="password" id="password2" placeholder="Enter Password Again">
+                <small>Error Message</small>
+            </div>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- <div class="back-card">
+        <h1>Thank you</h1>
+        <p>Your form was subtmited
+            Check your email </p> 
+        <div id="logo"></div> 
+    </div> -->
+
+    <script src="form.js"> </script>
+</body>
+</html>
