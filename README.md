@@ -11,7 +11,7 @@
  
  # How was it built? 
  
- *Using Vanilla JS, HTML and CSS* 
+ *The project was written in Vanilla JS, HTML and CSS* 
  
  # Why was it built? 
  
